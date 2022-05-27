@@ -18,4 +18,4 @@ for time_and_title in soup.find_all(class_='livenews-media'):
     title=time_and_title.get_text()
     ws.append([title])
     #print(title)
-wb.save(r'C:\Users\lenovo\Desktop\python练习文件\爬虫东方财富全球资讯\24H实时新闻爬虫.xlsx')
+wb.save(r'C:\Users\lenovo\Desktop\python练习文件\爬虫东方财富全球资讯\24H实时新闻爬虫.xlsx')  #这边的地址改成自己的保存位置即可
